@@ -560,7 +560,7 @@ impl WasiEnv {
 
     // FIXME: use custom error type
     #[allow(clippy::result_large_err)]
-    pub(crate) fn instantiate(
+    pub fn instantiate(
         mut init: WasiEnvInit,
         module: Module,
         module_hash: ModuleHash,
