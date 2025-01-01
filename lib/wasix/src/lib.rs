@@ -55,6 +55,8 @@ mod state;
 mod syscalls;
 mod utils;
 
+pub use utils::xxhash_random;
+
 use std::sync::Arc;
 
 #[allow(unused_imports)]
